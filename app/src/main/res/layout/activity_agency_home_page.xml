@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f172a"
+    tools:context=".AgencyHomePage">
+
+    <Button
+        android:id="@+id/Postprop"
+        android:backgroundTint="#94a3b8"
+        android:layout_width="188dp"
+        android:layout_height="60dp"
+        android:text="Post property"
+        android:onClick="post"
+        android:textSize="18sp"
+        android:textColor="#0f172a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398"
+        tools:layout_editor_absoluteX="112dp" />
+
+    <Button
+        android:id="@+id/manage"
+        android:backgroundTint="#94a3b8"
+        android:textColor="#0f172a"
+        android:layout_width="190dp"
+        android:layout_height="58dp"
+        android:text="manage property"
+        android:onClick="mange"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527"
+        tools:layout_editor_absoluteX="112dp" />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="194dp"
+        android:backgroundTint="#94a3b8"
+        android:textColor="#0f172a"
+        android:textSize="18sp"
+        android:layout_height="63dp"
+        android:text="Rented History"
+        android:onClick="history"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657"
+        tools:layout_editor_absoluteX="112dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
