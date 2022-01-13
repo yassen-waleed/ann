@@ -10,7 +10,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#0f172a"
+        android:background="@color/background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="1dp">
@@ -29,7 +29,6 @@
 
 
                 <TextView
-
                     android:layout_width="12dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".4"
@@ -38,11 +37,13 @@
                     android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
-                <EditText
+                <Spinner
                     android:id="@+id/citytxt"
+                    android:textColor="#EAE9E9"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".6"
+                    android:entries="@array/array_city"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -61,12 +62,13 @@
                     android:layout_width="10dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".4"
-                    android:text="Postal address"
+                    android:text="Postal"
                     android:textAlignment="textStart"
                     android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/postal"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -95,12 +97,13 @@
                     android:textSize="20sp" />
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/surface"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".6"
                     android:ems="10"
-                    android:inputType="textEmailAddress"
+                    android:inputType="number"
                     android:text="" />
             </LinearLayout>
 
@@ -123,12 +126,13 @@
                     android:textSize="20sp" />
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/year"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".6"
                     android:ems="10"
-                    android:inputType="textPassword"
+                    android:inputType="number"
                     android:text="" />
             </LinearLayout>
 
@@ -150,12 +154,13 @@
                     android:textSize="20sp" />
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/bed"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".6"
                     android:ems="10"
-                    android:inputType="textWebPassword"
+                    android:inputType="number"
                     android:text="" />
             </LinearLayout>
 
@@ -178,10 +183,12 @@
                     android:textSize="20sp" />
 
                 <EditText
-                    android:id="@+id/price"
+                    android:textColor="#EAE9E9"
+                    android:id="@+id/Maxprice"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".6"
+                    android:inputType="number"
                     android:ems="10"
                     android:text="" />
             </LinearLayout>
@@ -204,6 +211,7 @@
                     android:textSize="20sp" />
 
                 <Spinner
+                    android:textColor="#EAE9E9"
                     android:id="@+id/status"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -229,9 +237,9 @@
                     android:backgroundTint="#94a3b8"
                     android:ems="10"
                     android:gravity="center"
-                    android:onClick="Choose"
-                    android:text="image"
-                    android:textColor="#0f172a " />
+
+                    android:text="choose image"
+                    android:textColor="@color/background" />
 
                 <ImageView
                     android:id="@+id/imageView"
@@ -252,8 +260,8 @@
 
 
                 <TextView
-                    android:layout_width="18dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="61dp"
+                    android:layout_height="56dp"
                     android:layout_weight=".4"
                     android:text="availability date "
                     android:textAlignment="textStart"
@@ -261,6 +269,7 @@
                     android:textSize="20sp" />
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/date"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -288,15 +297,15 @@
                     android:textSize="20sp" />
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/discription"
                     android:layout_width="231dp"
                     android:layout_height="100dp"
-
                     android:layout_weight=".4" />
 
             </LinearLayout>
             <CheckBox
-                android:id="@+id/balcony"
+                android:id="@+id/balconycheck"
                 android:layout_width="368dp"
                 android:layout_height="50dp"
                 android:text="Balcony"
@@ -305,24 +314,22 @@
              />
 
             <CheckBox
-                android:id="@+id/garden"
+                android:id="@+id/gardencheck"
                 android:layout_width="366dp"
                 android:layout_height="49dp"
                 android:text="garden"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 />
-
             <Button
                 android:id="@+id/post"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:backgroundTint="#94a3b8"
-                android:onClick="post"
+                android:background="@drawable/radius"
                 android:text="Post"
-                android:textColor="#0f172a " />
-
+                android:textColor="@color/background" />
 
         </LinearLayout>
     </ScrollView>

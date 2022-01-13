@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0f172a"
+    android:background="@color/background"
     tools:context=".TenantHomeBage">
 
     <Button
@@ -12,6 +12,7 @@
         android:layout_width="237dp"
         android:layout_height="55dp"
         android:backgroundTint="#94a3b8"
+        android:background="@drawable/radius"
         android:onClick="search"
         android:text="Search"
         android:textColor="#0f172a"
@@ -24,6 +25,7 @@
 
     <Button
         android:id="@+id/home"
+        android:background="@drawable/radius"
         android:layout_width="232dp"
         android:layout_height="59dp"
         android:backgroundTint="#94a3b8"
@@ -44,6 +46,7 @@
         android:backgroundTint="#94a3b8"
         android:onClick="history"
         android:text="Rented History"
+        android:background="@drawable/radius"
         android:textColor="#0f172a"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,6 +60,7 @@
         android:layout_width="255dp"
         android:layout_height="50dp"
         android:backgroundTint="#94a3b8"
+        android:background="@drawable/radius"
         android:onClick="logout"
         android:text="Logout"
         android:textColor="#0f172a"
@@ -66,4 +70,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.806" />
+
+    <Button
+        android:id="@+id/mainpage"
+        android:layout_width="285dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#94a3b8"
+        android:background="@drawable/radius"
+        android:onClick="main_page"
+        android:text="main page"
+        android:textColor="#0f172a"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <Button
+        android:id="@+id/tenantprofile"
+        android:background="@drawable/radius"
+        android:layout_width="285dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#94a3b8"
+        android:onClick="profile"
+        android:text="Profile"
+        android:textColor="#0f172a"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249" />
 </androidx.constraintlayout.widget.ConstraintLayout>

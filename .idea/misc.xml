@@ -7,20 +7,42 @@
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/drawable/ic_menu_camera.xml" value="0.18697916666666667" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.18697916666666667" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/drawable/radius.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/drawable/side_nav_bar.xml" value="0.18697916666666667" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_agency_home_page.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_agency_sign_up.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_all_propirty.xml" value="0.1" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_detailsproperty_agency.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_edit_profile.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_edit_property_form.xml" value="0.1" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_edit_tenant_profile.xml" value="0.14221014492753623" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_guest.xml" value="0.1431159420289855" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_history_tenat_on_request.xml" value="0.1" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_home.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_main.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_mainpage.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_new_allpropirty.xml" value="0.22" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_post.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_properity.xml" value="0.1296875" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_propirty_details.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_rental_history_of_agency.xml" value="0.14447463768115942" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_rental_history_of_tenant.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_rentingpage.xml" value="0.13229166666666667" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_search.xml" value="0.1" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_search_result.xml" value="0.1431159420289855" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_sign_in.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_sign_up.xml" value="0.13451086956521738" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_tenant_home_bage.xml" value="0.18645833333333334" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_tenant_sign_up.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_update_agency_profile.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_view_tenant.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/activity_view_tenant_details.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/content_home.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/history1card.xml" value="0.22" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/historycard.xml" value="0.18" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/propcard.xml" value="0.1296875" />
         <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/properitycard.xml" value="0.1431159420289855" />
+        <entry key="..\:/Users/yssss/AndroidStudioProjects/And/app/src/main/res/layout/viewtenantcard.xml" value="0.1526268115942029" />
       </map>
     </option>
   </component>

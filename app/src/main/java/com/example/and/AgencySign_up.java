@@ -1,13 +1,11 @@
 package com.example.and;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -55,7 +53,7 @@ public class AgencySign_up extends AppCompatActivity {
             return;
 
         db.addAgency(
-                em, name, password, conf, count, ci, ph
+                em, name, password, conf,ph, count, ci
         );
         Intent intent = new Intent(this, Sign_in.class);
         startActivity(intent);

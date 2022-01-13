@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0f172a"
+    android:background="@color/background"
     tools:context=".GuestActivity">
     android:background="#0f172a"
 
@@ -22,40 +22,42 @@
 
         <Button
             android:id="@+id/sign_in"
+            android:background="@drawable/radius"
             android:layout_width="match_parent"
             android:layout_height="20dp"
+            android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="#94a3b8"
-            android:text="Sign In"
             android:onClick="sign_in"
-            android:layout_margin="8dp"
-            android:textColor="#0f172a "
+            android:text="Sign In"
+            android:textColor="@color/background"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/sign_up"
             android:layout_width="match_parent"
             android:layout_height="20dp"
+            android:layout_margin="8dp"
             android:layout_weight="1"
             android:backgroundTint="#94a3b8"
-            android:text="Sign up"
+            android:background="@drawable/radius"
             android:onClick="sign_up"
-            android:layout_margin="8dp"
-            android:textColor="#0f172a "
+            android:text="Sign up"
+            android:textColor="@color/background"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/Search"
-
-            android:layout_margin="8dp"
             android:layout_width="match_parent"
             android:layout_height="20dp"
+            android:layout_margin="8dp"
             android:layout_weight="1"
+            android:background="@drawable/radius"
             android:backgroundTint="#94a3b8"
 
-            android:textColor="#0f172a "
-            android:text="Search"
             android:onClick="Search"
+            android:text="Search"
+            android:textColor="@color/background"
             android:textSize="20sp" />
     </LinearLayout>
 

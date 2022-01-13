@@ -10,7 +10,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#0f172a"
+        android:background="@color/background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="1dp">
@@ -19,6 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -45,7 +46,8 @@
                     android:layout_weight=".6"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="" />
+                    android:text=""
+                    android:textColor="#EAE9E9" />
             </LinearLayout>
 
             <LinearLayout
@@ -68,6 +70,7 @@
 
                 <EditText
                     android:id="@+id/emailtxt"
+                    android:textColor="#EAE9E9"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".6"
@@ -96,6 +99,7 @@
 
                 <EditText
                     android:id="@+id/passtxt"
+                    android:textColor="#EAE9E9"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".6"
@@ -113,16 +117,17 @@
 
 
                 <TextView
-                    android:textAlignment="textStart"
-                    android:textColor="#FFFFFF"
-                    android:textSize="20sp"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".4"
-                    android:text="confirm" />
+                    android:text="confirm"
+                    android:textAlignment="textStart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
 
                 <EditText
                     android:id="@+id/confirmtxt"
+                    android:textColor="#EAE9E9"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".6"
@@ -151,6 +156,7 @@
 
                 <Spinner
                     android:id="@+id/countrytxt"
+                    android:textColor="#EAE9E9"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".6"
@@ -178,6 +184,7 @@
 
                 <Spinner
                     android:id="@+id/citytxt"
+                    android:textColor="#EAE9E9"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".6"
@@ -206,6 +213,7 @@
 
                 <EditText
                     android:id="@+id/phone_number"
+                    android:textColor="#EAE9E9"
                     android:layout_width="67dp"
                     android:inputType="number"
                     android:layout_height="wrap_content"
@@ -215,13 +223,14 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/sign"
+                android:id="@+id/sign_"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:backgroundTint="#94a3b8"
                 android:onClick="sign"
                 android:text="Sign Up"
+                android:background="@drawable/radius"
                 android:textColor="#0f172a " />
 
 

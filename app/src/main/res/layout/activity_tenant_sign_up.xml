@@ -9,7 +9,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#0f172a"
+        android:background="@color/background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="1dp">
@@ -38,6 +38,7 @@
                     android:textSize="20sp" />
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/firsttxt"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -66,6 +67,7 @@
                     android:textSize="20sp"/>
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/lasttxt"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -94,6 +96,7 @@
                     android:textSize="20sp"/>
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/emailtxt"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -122,6 +125,7 @@
                     android:textSize="20sp"/>
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/passtxt"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -149,6 +153,7 @@
                     android:text="confirm" />
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/confirmtxt"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -177,6 +182,7 @@
                     android:text="current country" />
 
                 <Spinner
+                    android:textColor="#EAE9E9"
                     android:id="@+id/countrytxt"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -204,6 +210,7 @@
                     android:text="nationality " />
 
                 <Spinner
+                    android:textColor="#EAE9E9"
                     android:id="@+id/nationalitytxt"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -231,6 +238,7 @@
                     android:text="occupation" />
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/occupationtxt"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -258,6 +266,7 @@
                     android:text="city " />
 
                 <Spinner
+                    android:textColor="#EAE9E9"
                     android:id="@+id/citytxt"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -311,6 +320,7 @@
                     android:text="family size" />
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/familysizetxt"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -338,6 +348,7 @@
                     android:text="monthly_salary " />
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/salary"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -365,6 +376,7 @@
                     android:text="phone number" />
 
                 <EditText
+                    android:textColor="#EAE9E9"
                     android:id="@+id/phone"
                     android:layout_width="67dp"
                     android:layout_height="wrap_content"
@@ -375,14 +387,15 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/sign"
+                android:background="@drawable/radius"
+                android:id="@+id/sign_"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:backgroundTint="#94a3b8"
                 android:onClick="sign_up"
                 android:text="Sign Up"
-                android:textColor="#0f172a " />
+                android:textColor="@color/background" />
 
 
         </LinearLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:textAlignment="center"
-    android:background="#0f172a"
+    android:background="@color/background"
     tools:context=".Sign_in">
 
     <LinearLayout
@@ -30,6 +30,7 @@
 
         <EditText
             android:id="@+id/txtemail"
+            android:textColor="#EAE9E9"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -42,10 +43,11 @@
         android:id="@+id/login"
         android:layout_width="223dp"
         android:layout_height="59dp"
-        android:backgroundTint="#94a3b8"
+
+        android:background="@drawable/radius"
         android:text="Login"
         android:onClick="login"
-        android:textColor="#1C1A1A"
+        android:textColor="#2A3347"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -71,12 +73,13 @@
             android:textColor="#FFFFFF" />
 
         <EditText
+            android:textColor="#EAE9E9"
             android:id="@+id/password"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="textPassword"
             android:text=""
             tools:ignore="InvalidId" />
     </LinearLayout>

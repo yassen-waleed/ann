@@ -85,7 +85,7 @@ public class Sign_in extends AppCompatActivity {
 
 
                 } else {
-                    Toast.makeText(Sign_in.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Sign_in.this, "Invalid username or password", Toast.LENGTH_SHORT).show();
                 }
             }
         }

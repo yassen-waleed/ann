@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.and">
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +12,45 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.And">
+        <activity
+            android:name=".EditTenantProfile"
+            android:exported="false" />
+        <activity
+            android:name=".RentalHistoryOfAgency"
+            android:exported="false" />
+        <activity
+            android:name=".RentalHistoryOfTenant"
+            android:exported="false" />
+        <activity
+            android:name=".mainpage"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryTenatOnRequest"
+            android:exported="false" />
+        <activity
+            android:name=".ViewTenantDetails"
+            android:exported="false" />
+        <activity
+            android:name=".ViewTenant"
+            android:exported="false" />
+        <activity
+            android:name=".Rentingpage"
+            android:exported="false" />
+        <activity
+            android:name=".EditPropertyForm"
+            android:exported="false" />
+        <activity
+            android:name=".detailspropertyAgency"
+            android:exported="false" />
+        <activity
+            android:name=".updateAgencyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".PropirtyDetails"
+            android:exported="false" />
+        <activity
+            android:name=".newAllpropirty"
+            android:exported="false" />
         <activity
             android:name=".Post"
             android:exported="false" />
@@ -53,6 +95,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

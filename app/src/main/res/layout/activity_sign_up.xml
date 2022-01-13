@@ -5,10 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0f172a"
+    android:background="@color/background"
     tools:context=".sign_up">
 
     <Button
+        android:background="@drawable/radius"
         android:id="@+id/AsTenant"
         android:layout_width="325dp"
         android:layout_height="64dp"
@@ -25,6 +26,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
+        android:background="@drawable/radius"
         android:id="@+id/AsAgency"
         android:layout_width="325dp"
         android:layout_height="64dp"

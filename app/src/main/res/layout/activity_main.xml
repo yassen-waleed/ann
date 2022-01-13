@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0f172a"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
     <Button
@@ -13,7 +13,7 @@
         android:layout_width="229dp"
         android:layout_height="95dp"
         android:backgroundTint="#94a3b8"
-        android:textColor="#0f172a "
+        android:background="@drawable/radius"
         android:textSize="20sp"
         android:text="connect"
         app:layout_constraintBottom_toBottomOf="parent"

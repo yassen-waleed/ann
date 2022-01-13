@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditPropertyForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="City"
+                        android:textAlignment="textStart"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:textColor="#EAE9E9"
+                        android:id="@+id/editprop_citytxt"
+                        android:layout_width="67dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:entries="@array/array_city"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <TextView
+
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="Postal"
+                        android:textAlignment="textStart"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:textColor="#EAE9E9"
+                        android:id="@+id/editprop_postal"
+                        android:layout_width="67dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <TextView
+
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="Surface area"
+                        android:textAlignment="textStart"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:textColor="#EAE9E9"
+                        android:id="@+id/editprop_surface"
+                        android:layout_width="67dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:text="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <TextView
+
+                        android:layout_width="16dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text=" year"
+                        android:textAlignment="textStart"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:textColor="#EAE9E9"
+                        android:id="@+id/editprop_year"
+                        android:layout_width="67dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:text="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <TextView
+                        android:layout_width="18dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="Bedrooms"
+                        android:textAlignment="textStart"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:textColor="#EAE9E9"
+                        android:id="@+id/editprop_bed"
+                        android:layout_width="67dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:text="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <TextView
+
+                        android:layout_width="16dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="rental price"
+                        android:textAlignment="textStart"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:textColor="#EAE9E9"
+                        android:id="@+id/editprop_Maxprice"
+                        android:layout_width="67dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:text="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="status "
+                        android:textAlignment="textStart"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:id="@+id/editprop_status"
+                        android:layout_width="67dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:entries="@array/array_status"
+                        android:ems="10"
+                        android:text="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <TextView
+                        android:layout_width="18dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="availability date "
+                        android:textAlignment="textStart"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:textColor="#EAE9E9"
+                        android:id="@+id/editprop_date"
+                        android:layout_width="67dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".6"
+                        android:inputType="date"
+                        android:ems="10"
+                        android:text="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <TextView
+                        android:layout_width="126dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:text="Description"
+                        android:textAlignment="textStart"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:textColor="#EAE9E9"
+                        android:id="@+id/editprop_discription"
+                        android:layout_width="231dp"
+                        android:layout_height="100dp"
+                        android:layout_weight=".4" />
+
+                </LinearLayout>
+                <CheckBox
+
+                    android:id="@+id/editprop_balconycheck"
+                    android:layout_width="368dp"
+                    android:layout_height="50dp"
+                    android:text="Balcony"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <CheckBox
+                    android:id="@+id/editprop_gardencheck"
+                    android:layout_width="366dp"
+                    android:layout_height="49dp"
+                    android:text="garden"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    />
+                <Button
+                    android:id="@+id/editprop_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="#94a3b8"
+                    android:background="@drawable/radius"
+                    android:text="update"
+                     />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
